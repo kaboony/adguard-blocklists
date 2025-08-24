@@ -1,0 +1,22 @@
+[Adblock Plus 2.0] ! Title: YouTube AdBlock List ! Description: Blocks
+YouTube ads, overlays, banners, midrolls, etc. ! Expires: 1 day !
+Homepage: https://example.com/ ! Version: 2025.08.24
+
+! === Cosmetic Filtering === youtube.com##.ytp-ad-module
+youtube.com##.ytp-ad-player-overlay youtube.com##.ytp-ad-skip-button
+youtube.com##.ytp-ad-preview-container
+youtube.com##.ytp-ad-progress-list youtube.com##.ytp-ad-overlay-slot
+youtube.com##.ytp-ad-message-container
+youtube.com##.ytp-ad-player-overlay-instream-info
+youtube.com##.ytp-ad-image-overlay
+youtube.com##ytd-companion-slot-renderer
+youtube.com##ytd-display-ad-renderer
+youtube.com##ytd-video-masthead-ad-v3-renderer
+youtube.com##ytd-promoted-sparkles-web-renderer
+youtube.com##ytd-action-companion-ad-renderer
+
+! === Network Blocking === ||youtube.com/get_midroll_
+||youtube.com/api/stats/ads? ||youtube.com/pagead/
+||youtube.com/ptracking? ||youtube.com/youtubei/v/player/ad_break?
+||youtube.com/youtubei/v/player/ads? ||googleads.g.doubleclick.net^
+||ad.doubleclick.net^ ||pagead2.googlesyndication.com^
